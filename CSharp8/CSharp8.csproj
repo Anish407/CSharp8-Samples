@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AsyncStream\AsyncStream.cs" />
+    <Compile Remove="DefaultImplementation.cs" />
+    <Compile Remove="DisposeUsingSample.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="rangeandIndices.cs" />
+    <Compile Remove="SpanSample.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="AsyncStream\AsyncStream.cs" />
+    <None Include="DefaultImplementation.cs" />
+    <None Include="DisposeUsingSample.cs" />
+    <None Include="Program.cs" />
+    <None Include="rangeandIndices.cs" />
+    <None Include="SpanSample.cs" />
+  </ItemGroup>
+
+</Project>
